@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas hub - projekt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Atlas hub - projekt</h1>
+
+<div class="filters">
+    <button onclick="fetchMushrooms()">Vše</button>
+    <button onclick="fetchMushrooms('jedlé')">Jedlé</button>
+    <button onclick="fetchMushrooms('nejedlé')">Nejedlé</button>
+    <button onclick="fetchMushrooms('jedovaté')">Jedovaté</button>
+    <button onclick="fetchMushrooms('halucinogenní')">Halucinogenní</button>
+</div>
+
+<div class="gallery" id="gallery"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

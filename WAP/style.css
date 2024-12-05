@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.filters button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #2e302e;
+    color: white;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #201e1e99;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-item h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.gallery-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Fade effect */
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
